@@ -1,5 +1,5 @@
 <template>
-    <div class="test-wrap"></div>
+    <div class="test-wrap">test</div>
 </template>
 
 <script>

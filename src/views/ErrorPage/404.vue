@@ -16,10 +16,9 @@
 </template>
 
 <script>
-import { LeftOutlined } from "@ant-design/icons-vue";
 export default {
     name: "404",
-    components: { LeftOutlined },
+    components: {},
     setup() {},
 };
 </script>

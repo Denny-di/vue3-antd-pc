@@ -1,6 +1,6 @@
 <template>
     <div class="layout-wrap">
-        layout-wrap 123
+        layout-wrap
 
         <router-view />
     </div>

@@ -52,6 +52,9 @@ export default {
         const handleFinish = (values) => {
             console.log(values, formState);
         };
+        const handleFinishFailed = (values) => {
+            console.log(values, formState);
+        };
 
         onMounted(() => {
             // mounted
@@ -62,6 +65,7 @@ export default {
         return {
             formState,
             handleFinish,
+            handleFinishFailed,
             count,
             ...toRefs(obj),
         };
