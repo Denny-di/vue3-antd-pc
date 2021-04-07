@@ -8,10 +8,12 @@
                 您请求访问的页面暂时找不到，我们建议您返回首页进行浏览，谢谢！
             </p>
         </div>
-        <a-button type="primary" @click="$router.replace({ path: '/home' })">
-            <template #icon><LeftOutlined /></template>
-            返回首页
-        </a-button>
+        <router-link to="/home">
+            <a-button type="primary">
+                <template #icon><LeftOutlined /></template>
+                返回首页
+            </a-button>
+        </router-link>
     </div>
 </template>
 
